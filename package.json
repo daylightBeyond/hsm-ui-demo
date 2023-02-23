@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "dumi dev",
+    "start": "npm run dev",
+    "build:site": "rimraf doc-site && dumi build",
+    "preview:site": "npm run build && serve doc-site",
     "commit": "git-cz"
   },
   "keywords": [],
@@ -39,11 +43,14 @@
     "@umijs/fabric": "^2.14.1",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
+    "dumi": "^1.1.48",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
     "prettier": "^2.8.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rimraf": "^4.1.2",
+    "serve": "^14.2.0",
     "typescript": "^4.9.5"
   },
   "dependencies": {
