@@ -1,6 +1,6 @@
 {
   "name": "hsm-ui-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "typings": "iib/index.d.ts",
   "main": "lib/index.js",
